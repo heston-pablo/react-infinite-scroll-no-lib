@@ -1,0 +1,22 @@
+{
+	"name": "${localWorkspaceFolderBasename}",
+	"image": "mcr.microsoft.com/devcontainers/base:noble",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"username": "vscode"
+		},
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/node:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"biomejs.biome",
+				"esbenp.prettier-vscode",
+				"nexmoe.monitor-pro",
+				"PKief.material-icon-theme"
+			]
+		}
+	},
+	"postCreateCommand": "bash .devcontainer/post-create.sh"
+}

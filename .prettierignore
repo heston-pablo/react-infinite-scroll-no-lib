@@ -1,0 +1,13 @@
+.vscode
+
+pnpm-lock.yaml
+
+# Formatted by Biome
+**/*.css
+**/*.json
+**/*.js
+**/*.ts
+**/*.tsx
+**/*.jsx
+**/*.mjs
+**/*.cjs
